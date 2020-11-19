@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- opendihu 1.1, built Nov  5 2020, C++ 201402, GCC 7.5.0 current time: 2020/11/19 17:47:34, hostname: DESKTOP-PAREPFM, n ranks: 2-->
+<VTKFile type="RectilinearGrid" version="1.0" byte_order="LittleEndian">
+	<RectilinearGrid WholeExtent="0 10 0 10 0 0"> 
+		<Piece Extent="0 10 5 10 0 0"> 
+			<PointData Scalars="solution" >
+				<DataArray Name="solution" type="Float32" NumberOfComponents="1" format="ascii" >
+					0.599617 0.607739 0.629662 0.659019 0.687937 0.709714 0.720798 0.721568 0.715826 0.709102 0.706225 0.59054 0.600094 0.625681 0.659493 0.692104 0.715787 0.726596 0.725169 0.716193 0.706609 0.702582 0.559958 0.574542 0.613011 0.66189 0.706636 0.736354 0.746156 0.737226 0.716987 0.697058 0.688893 0.495097 0.522377 0.58958 0.670431 0.738187 0.778842 0.786522 0.762755 0.717429 0.673457 0.654316 0.36781 0.419584 0.559434 0.695373 0.799334 0.856634 0.860915 0.813292 0.723512 0.615144 0.574317 0 0.281733 0.540641 0.75575 0.909632 0.989821 0.989821 0.909632 0.75575 0.540641 0.281733 
+				</DataArray>
+				<DataArray Name="rightHandSide" type="Float32" NumberOfComponents="1" format="ascii" >
+					0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0939109 -0.274124 -0.526041 -0.735341 -0.885068 -0.963092 -0.963092 -0.885068 -0.735341 -0.526041 -0.227169 0 0.281733 0.540641 0.75575 0.909632 0.989821 0.989821 0.909632 0.75575 0.540641 0.281733 
+				</DataArray>
+				<DataArray Name="-rhsNeumannBC" type="Float32" NumberOfComponents="1" format="ascii" >
+					0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+				</DataArray>
+				<DataArray Name="partitioning" type="Int32" NumberOfComponents="1" format="ascii" >
+					1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+				</DataArray>
+			</PointData>
+			<CellData>
+			</CellData>
+			<Coordinates>
+				<DataArray type="Float32" NumberOfComponents="1" format="ascii" >
+					0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 
+				</DataArray>
+				<DataArray type="Float32" NumberOfComponents="1" format="ascii" >
+					0.5 0.6 0.7 0.8 0.9 1 
+				</DataArray>
+				<DataArray type="Float32" NumberOfComponents="1" format="ascii" >
+					0 
+				</DataArray>
+			</Coordinates>
+		</Piece>
+	</RectilinearGrid>
+</VTKFile>

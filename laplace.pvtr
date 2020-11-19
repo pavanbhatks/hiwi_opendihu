@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- opendihu 1.1, built Nov  5 2020, C++ 201402, GCC 7.5.0 current time: 2020/11/19 17:47:34, hostname: DESKTOP-PAREPFM, n ranks: 2-->
+<VTKFile type="PRectilinearGrid" version="1.0" byte_order="LittleEndian">
+	<PRectilinearGrid WholeExtent="0 10 0 10 0 0" GhostLevel="0"> 
+		<PPointData Scalars="solution" >
+			<PDataArray Name="solution" type="Float32" NumberOfComponents="1" format="ascii" />
+			<PDataArray Name="rightHandSide" type="Float32" NumberOfComponents="1" format="ascii" />
+			<PDataArray Name="-rhsNeumannBC" type="Float32" NumberOfComponents="1" format="ascii" />
+			<PDataArray Name="partitioning" type="Int32" NumberOfComponents="1" format="ascii" />
+		</PPointData>
+		<PCellData>
+		</PCellData>
+		<PCoordinates>
+			<PDataArray type="Float32" NumberOfComponents="1" format="ascii" />
+			<PDataArray type="Float32" NumberOfComponents="1" format="ascii" />
+			<PDataArray type="Float32" NumberOfComponents="1" format="ascii" />
+		</PCoordinates>
+		<Piece Extent="0 10 0 5 0 0" Source="laplace.0.vtr" />
+		<Piece Extent="0 10 5 10 0 0" Source="laplace.1.vtr" />
+	</PRectilinearGrid>
+</VTKFile>
